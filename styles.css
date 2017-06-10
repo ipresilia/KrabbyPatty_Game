@@ -1,0 +1,55 @@
+html {
+  background-image: url("spongebob.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  cursor: url('spatula.png') 64 64, auto;
+  /*width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;*/
+}
+
+
+/* BALLOON */
+/*.inflatable {
+  width: 180px;
+  height: 200px;
+  background-color:  #aaff00;
+  border-radius: 50%;
+  border: solid black 1px;
+}
+
+.string {
+  width: 2px;
+  height: 100px;
+  background-color: black;
+  margin-left: 90px;
+}*/
+
+@font-face {
+    font-family: "Krabby Patty";
+    src: url(Krabby Patty.ttf);
+}
+
+.krabbyPatty {
+  position: absolute;
+  bottom: 0;
+  cursor: url('spatula.png') 64 64, auto;
+}
+
+.counter {
+  color: white;
+  font-size: 2em;
+  font-family: "Krabby Patty";
+  text-align: center;
+  margin-top: 5%;
+  padding: 2px;
+  background: black;
+  opacity: 0.5;
+
+}
+
+/*.module {
+  cursor: url('spatula.png'), auto;
+}*/
